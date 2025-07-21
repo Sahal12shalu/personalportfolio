@@ -16,10 +16,10 @@ export function ThreeDCard() {
       whileInView={{ opacity: 1, y: 20 }}
       transition={{ duration: 0.7, delay: 0.4 }}
       viewport={{ root: true }}
-      className="flex justify-center items-center flex-wrap gap-4 lg:gap-6">
+      className="flex justify-center items-center flex-wrap max-sm:gap-2 sm:gap-4 lg:gap-6">
       <CardContainer className="inter-var">
         <CardBody
-          className="bg-green-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[12rem] sm:w-[14rem] lg:w-[17rem] h-[18rem] lg:h-[22rem] rounded-xl p-5 border  ">
+          className="bg-green-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[14rem] lg:w-[17rem] h-[18rem] lg:h-[22rem] rounded-xl p-5 border  ">
           <CardItem translateZ="100" className="w-full">
             <Image
               src={mongodb}
@@ -45,7 +45,7 @@ export function ThreeDCard() {
 
       <CardContainer className="inter-var">
         <CardBody
-          className="bg-white/90 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[12rem] sm:w-[14rem] lg:w-[17rem] h-[18rem] lg:h-[22rem] rounded-xl p-5 border  ">
+          className="bg-white/90 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[14rem] lg:w-[17rem] h-[18rem] lg:h-[22rem] rounded-xl p-5 border  ">
           <CardItem translateZ="100" className="w-full ">
             <Image
               src={express}
@@ -70,7 +70,7 @@ export function ThreeDCard() {
 
       <CardContainer className="inter-var">
         <CardBody
-          className="bg-blue-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[12rem] sm:w-[14rem] lg:w-[17rem] h-[18rem] lg:h-[22rem] rounded-xl p-5 border  ">
+          className="bg-blue-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[14rem] lg:w-[17rem] h-[18rem] lg:h-[22rem] rounded-xl p-5 border  ">
           <CardItem translateZ="100" className="w-full ">
             <Image
               src={react}
@@ -95,7 +95,7 @@ export function ThreeDCard() {
 
       <CardContainer className="inter-var">
         <CardBody
-          className="bg-gray-100 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[12rem] sm:w-[14rem] lg:w-[17rem] h-[18rem] lg:h-[22rem] rounded-xl p-5 border  ">
+          className="bg-gray-100 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[14rem] lg:w-[17rem] h-[18rem] lg:h-[22rem] rounded-xl p-5 border  ">
           <CardItem translateZ="100" className="w-full ">
             <Image
               src={nodejs}

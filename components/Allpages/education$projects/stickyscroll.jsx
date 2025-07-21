@@ -19,7 +19,7 @@ const content = [
           src={resturant}
           width={300}
           height={300}
-          className="h-full w-full object-fill relative"
+          className="h-full w-full max-lg:px-5 object-fill relative"
           alt="linear board demo" />
           <a href="http://resturantorder.vercel.app" className="hidden absolute group-hover:flex justify-center items-center w-full h-full hover:bg-black/20">
       <button className=" p-4 h-[40px] group-hover:flex justify-center items-center rounded-3xl font-semibold bg-black/80">View Site</button>
@@ -37,7 +37,7 @@ const content = [
           src={hakeem}
           width={300}
           height={300}
-          className="h-full w-full object-cover relative"
+          className="h-full w-full max-lg:px-5 object-cover relative"
           alt="linear board demo" />
           <a href="https://sahal12shalu.github.io/hakeemwebsite/" className="hidden absolute group-hover:flex justify-center items-center w-full h-full hover:bg-black/20">
       <button className=" p-4 h-[40px] group-hover:flex justify-center items-center rounded-3xl font-semibold bg-black/80">View Site</button>
@@ -55,7 +55,7 @@ const content = [
           src={delivery}
           width={300}
           height={300}
-          className="h-full w-full object-fill relative"
+          className="h-full max-lg:px-5 w-full object-fill relative"
           alt="linear board demo" />
           <a href="https://shalustore22.onrender.com" className="hidden absolute group-hover:flex justify-center items-center w-full h-full hover:bg-black/20">
       <button className="p-4 h-[40px] rounded-3xl group-hover:flex justify-center items-center font-semibold bg-black/80">View Site</button>
