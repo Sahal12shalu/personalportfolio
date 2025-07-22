@@ -26,11 +26,11 @@ export const buttons = [
     name: "Lit up borders",
     description: "Gradient button with perfect corners",
     component: (
-      <button className="p-[2.5px] relative">
+      <button className="p-[2px] relative">
         <div
-          className="absolute inset-0 bg-gradient-to-r from-white/40 to-black/10 rounded-lg" />
+          className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/10 rounded-lg" />
         <a href="/resume/resume.pdf" download="Sahal.pdf"><div
-          className="lg:px-8 lg:py-2 px-6 py-2 hover:bg-black/10 rounded-[6px] shadow-lg shadow-white/40 relative group transition duration-200 text-white max-md:bg-transparent bg-transparent">
+          className="lg:px-8 lg:py-2 px-6 py-2 hover:bg-black/10 rounded-[6px] shadow-md shadow-white/40 relative group transition duration-200 text-white max-md:bg-transparent bg-transparent">
           Download 
         </div></a>
       </button>
@@ -40,12 +40,12 @@ export const buttons = [
     name: "Lit up borders",
     description: "Gradient button with perfect corners",
     component: (
-      <button className="p-[2.5px] relative">
+      <button className="p-[2px] relative">
         <div
-          className="absolute inset-0 bg-gradient-to-r from-gray-200/30 to-orange-300/60 rounded-lg" />
+          className="absolute inset-0 bg-gradient-to-r from-white/80 to-white/90 rounded-lg " />
           <a href="#contact">
         <div
-          className="lg:px-8 lg:py-2 px-6 py-2  hover:bg-black/10 rounded-[6px] shadow-lg shadow-white/30 relative group transition duration-200 max-md:bg-transparent text-white bg-transparent">
+          className="lg:px-8 lg:py-2 px-6 py-2  hover:bg-white/30 rounded-[6px] shadow-md text-black shadow-white/30 relative group transition duration-200 max-md:bg-transparent bg-transparent">
           Contact
         </div></a>
       </button>
