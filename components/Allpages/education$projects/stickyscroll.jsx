@@ -4,6 +4,7 @@ import { StickyScroll } from "../../ui/sticky-scroll";
 import resturant from '../../../public/image/projects/resturant.png'
 import hakeem from '../../../public/image/projects/hakeem.png'
 import delivery from '../../../public/image/projects/fooddelivery.png'
+import chatapp from '../../../public/image/projects/chat-app.png'
 import Image from "next/image";
 import {motion} from 'framer-motion'
 
@@ -28,18 +29,18 @@ const content = [
     ),
   },
   {
-    title: "Personal Portfolio",
+    title: "Real Time Chat-App",
     description:
-      "A clean and responsive personal portfolio website created for Hakeem, showcasing his professional profile, skills, projects, and contact information. The site is built using HTML, CSS, and Bootstrap, ensuring fast loading and mobile responsiveness. The design follows a modern aesthetic with easy navigation and clear section layouts. Hosted live on GitHub Pages for public access.",
+      "This is a fully functional real-time chat application built using modern web technologies. The app allows users to join chat rooms and exchange messages instantly. It is designed to provide a seamless and interactive messaging experience, similar to popular messaging platforms.",
     content: (
       <div className="group flex h-full w-full items-center justify-center text-white">
         <Image
-          src={hakeem}
+          src={chatapp}
           width={300}
           height={300}
           className="h-full w-full max-lg:px-5 object-cover relative"
           alt="linear board demo" />
-          <a href="https://sahal12shalu.github.io/hakeemwebsite/" className="hidden absolute group-hover:flex justify-center items-center w-full h-full hover:bg-black/20">
+          <a href="https://chatapp-nbmw.onrender.com" className="hidden absolute group-hover:flex justify-center items-center w-full h-full hover:bg-black/20">
       <button className=" p-4 h-[40px] group-hover:flex justify-center items-center rounded-3xl font-semibold bg-black/80">View Site</button>
       </a></div>
     ),
